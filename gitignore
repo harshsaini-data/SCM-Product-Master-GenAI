@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# API keys / credentials
+*.pem
+*.key
+secrets/
+credentials/
+
+# Generated project files
+product_cleaning_cache.json
+product_cleaning.log
+ProductList_master_cleaned*.csv
+*.tmp
+
+# Local data
+data/
+*.csv
+*.xlsx
+*.xls
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
